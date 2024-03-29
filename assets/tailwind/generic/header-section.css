@@ -1,0 +1,6 @@
+.header-section{
+    @apply title-public title-public-dark leading-none mb-5 text-start
+}
+.header-section b{
+    @apply title-public-semibold mb-0.5 block
+}

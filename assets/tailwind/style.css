@@ -1,0 +1,51 @@
+/* GENERIC */
+@import "generic/font.css";
+@import "generic/font-icon.css";
+@import "generic/title-public.css";
+@import "generic/text-public.css";
+@import "generic/backdrop.css";
+@import "generic/dropdown.css";
+@import "generic/space-beetwin.css";
+@import "generic/shape.css";
+@import "generic/btn.css";
+@import "generic/form-element.css";
+@import "generic/subtitle-public.css";
+@import "generic/header-section.css";
+
+
+
+/* SECTIONS */
+@import "sections/navbar.css";
+@import "sections/swiper.css";
+@import "sections/history.css";
+@import "sections/blog-archive.css";
+@import "sections/product-single.css";
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .dark-gradient::after{
+        background: linear-gradient(90deg, rgb(27,24,37) 0%,rgba(27,24,37,0) 100%);
+        @apply content-[''] absolute w-full h-full top-0 right-0
+    }
+    .text-align-last-center{
+        text-align-last: center;
+    }
+}
+@layer base {
+    html , body  {
+        @apply font-["jostFont"] overflow-x-hidden text-left bg-white;
+        direction: ltr;
+    }
+    button {
+        @apply cursor-pointer
+    }
+}
+
+
+
+
+

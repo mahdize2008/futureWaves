@@ -1,0 +1,9 @@
+.swiper-pagination-cards2{
+    @apply flex items-center absolute lg:!bottom-12 !bottom-10 !translate-y-1/2 lg:!start-8 !start-4 z-20 !w-fit
+}
+.swiper-pagination-cards2 .swiper-pagination-bullet{
+    @apply w-[9px] h-[9px] !bg-darker !mx-0 !me-2
+}
+.swiper-pagination-cards2 .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    @apply w-[9px] h-[9px] !bg-secondary
+}

@@ -1,0 +1,18 @@
+.title-public{
+    @apply lg:text-7xl text-3xl text-white
+}
+.title-public-lg{
+    @apply lg:text-13xl md:text-5xl text-3xl
+}
+.title-public-small{
+    @apply lg:text-lg text-base
+}
+.title-public-semibold{
+    @apply font-semibold
+}
+.title-public-dark{
+    @apply text-dark
+}
+.title-public-primary{
+    @apply text-primary
+}

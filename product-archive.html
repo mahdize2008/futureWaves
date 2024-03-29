@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/Select2/select2.min.css">
+    <link rel="stylesheet" href="assets/css/swiper/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+    <!-- SATRT-MENU -->
+    <div id="menu"
+        class="bg-natural shadow-beta-light w-80 fixed h-full z-50 p-4 flex flex-col justify-between -right-80">
+
+    </div>
+    <div class="backdrop"></div>
+    <!-- END-MENU -->
+
+    <!--START-HEADER-->
+    <header class="relative bg-primary-dark bg-cover">
+        <div class="pt-beetwin-section z-20 relative">
+            <div class="container flex items-center">
+                <div class="xl:me-24 lg:me-16">
+                    <img src="./assets/img/logo.png" class="lg:max-w-[200px] max-w-[180px]">
+                </div>
+                <ul class="flex items-center max-lg:hidden">
+                    <li class="px-4 first:ps-0 last:pe-0">
+                        <a class="header-navbar-item text-white text-base uppercase py-1 relative" href="#">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="px-4 first:ps-0 last:pe-0">
+                        <a class="header-navbar-item text-white text-base uppercase py-1 relative" href="#">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="px-4 first:ps-0 last:pe-0">
+                        <a class="header-navbar-item text-white text-base uppercase py-1 relative" href="#">
+                            SERVICES
+                        </a>
+                    </li>
+                    <li class="px-4 first:ps-0 last:pe-0">
+                        <a class="header-navbar-item text-white text-base uppercase py-1 relative" href="#">
+                            PRODUCTS
+                        </a>
+                    </li>
+                    <li class="px-4 first:ps-0 last:pe-0">
+                        <a class="header-navbar-item text-white text-base uppercase py-1 relative" href="#">
+                            BLOG
+                        </a>
+                    </li>
+                    <li class="px-4 first:ps-0 last:pe-0">
+                        <a class="header-navbar-item text-white text-base uppercase py-1 relative" href="#">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+                <div class="dropdown py-2 ms-auto">
+                    <button type="button" class="dropdown-button">
+                        <i class="icon-world dropdown-language-icon"></i>
+                        <span class="dropdown-title">
+                            en
+                        </span>
+                        <i class="icon-down dropdown-icon"></i>
+                        <i class="icon-up dropdown-icon hidden"></i>
+                    </button>
+                    <div class="dropdown-body hidden">
+                        <a href="#" class="dropdown-item">
+                            en
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            fa
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative z-10 py-beetwin-section">
+            <div class="container flex flex-wrap items-center justify-between">
+                <h2 class="title-public title-public-lg me-8 py-2">
+                    <b class="title-public-semibold">Ladder</b>
+                </h2>
+                <div class="flex text-white text-sm font-light">
+                    <div class="flex items-center">
+                        <span class="shape-public shape-public-secondary h-1/2"></span>
+                    </div>
+                    <ul class="flex items-center -m-1">
+                        <li class="p-1.5">
+                            <a href="#" class="text-white hover:text-secondary transition-all font-extralight text-sm">
+                                HOME
+                            </a>
+                        </li>
+                        .
+                        <li class="p-1.5">
+                            <a href="#" class="text-white hover:text-secondary transition-all font-extralight text-sm">
+                                PAGES
+                            </a>
+                        </li>
+                        .
+                        <li class="p-1.5">
+                            <a href="#" class="text-white hover:text-secondary transition-all font-extralight text-sm">
+                                PRODUCTS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--END-HEADER-->
+
+
+    <!--START-MAIN-->
+    <main>
+        <div class="py-beetwin-section">
+            <div class="container">
+                <div class="xl:-m-5 -m-4 flex flex-wrap items-start">
+
+                    <div class="lg:w-[30%] w-full xl:p-5 p-4">
+                        <div class="max-lg:flex flex-wrap items-start max-lg:-mx-4 max-lg:-my-2.5 max-md:-mx-3">
+                            <!-- START-SEARCH-BOX -->
+                            <div class="lg:mb-8 max-lg:w-full max-lg:py-2.5 max-lg:px-4 max-md:px-3">
+                                <div class="lg:p-7 p-3 bg-primary rounded-md overflow-hidden ">
+                                    <form class="lg:h-[54px] h-[45px] rounded-full bg-white flex items-center relative">
+                                        <input type="text" class="rounded-full h-full w-full outline-none px-4"
+                                            placeholder="Network Or . . .">
+                                        <a href="#"
+                                            class="flex items-center justify-center lg:h-10 h-[35px] lg:w-10 w-[35px] shrink-0 text-base text-white bg-primary rounded-full absolute top-1/2 -translate-y-1/2 lg:end-[7px] end-[5px]">
+                                            <i class="icon-loupe"></i>
+                                        </a>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- END-SEARCH-BOX -->
+
+                            <!-- START-CATEGORY -->
+                            <div class="lg:mb-8 w-full max-lg:py-2.5 max-lg:px-4 max-md:px-3">
+                                <div class="lg:p-8 p-4 bg-light rounded overflow-hidden">
+                                    <h2
+                                        class="lg:pb-3 pb-3 lg:text-xl text-md text-dark font-bold capitalize relative after:bottom-0 after:start-0 after:bg-primary after:absolute after:w-16 after:h-[1px] after:translate-y-full">
+                                        Category
+                                    </h2>
+                                    <div class="line h-[1px]"></div>
+                                    <ul class="lg:pt-8 pt-4">
+                                        <li class="mb-2 last:mb-0">
+                                            <a href="#"
+                                                class="flex items-center justify-between lg:text-md text-2base leading-none py-1 text-natural hover:text-primary">
+                                                Ladder
+                                                <i class="icon-right lg:text-2xs text-3xs font-bold"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mb-2 last:mb-0">
+                                            <a href="#"
+                                                class="flex items-center justify-between lg:text-md text-2base leading-none py-1 text-natural hover:text-primary">
+                                                Fiber Optic
+                                                <i class="icon-right lg:text-2xs text-3xs font-bold"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mb-2 last:mb-0">
+                                            <a href="#"
+                                                class="flex items-center justify-between lg:text-md text-2base leading-none py-1 text-natural hover:text-primary">
+                                                ODF / OCDF
+                                                <i class="icon-right lg:text-2xs text-3xs font-bold"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mb-2 last:mb-0">
+                                            <a href="#"
+                                                class="flex items-center justify-between lg:text-md text-2base leading-none py-1 text-natural hover:text-primary">
+                                                Continouns
+                                                <i class="icon-right lg:text-2xs text-3xs font-bold"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mb-2 last:mb-0">
+                                            <a href="#"
+                                                class="flex items-center justify-between lg:text-md text-2base leading-none py-1 text-natural hover:text-primary">
+                                                Converter
+                                                <i class="icon-right lg:text-2xs text-3xs font-bold"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mb-2 last:mb-0">
+                                            <a href="#"
+                                                class="flex items-center justify-between lg:text-md text-2base leading-none py-1 text-natural hover:text-primary">
+                                                Spilicing Tools
+                                                <i class="icon-right lg:text-2xs text-3xs font-bold"></i>
+                                            </a>
+                                        </li>
+                                        <li class="mb-2 last:mb-0">
+                                            <a href="#"
+                                                class="flex items-center justify-between lg:text-md text-2base leading-none py-1 text-natural hover:text-primary">
+                                                Other
+                                                <i class="icon-right lg:text-2xs text-3xs font-bold"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- END-CATEGORY -->
+                        </div>
+
+                    </div>
+                    <div class="lg:w-[70%] w-full xl:p-5 p-4">
+
+
+                        <div class="lg:mb-8 mb-6">
+
+                            <div class="xl:-m-3 -m-2 flex flex-wrap items-center">
+                                <div class="sm:w-1/2 w-full xl:p-3 p-2">
+                                    <a href="#"
+                                        class="block relative bg-light hover:bg-white hover:shadow-lighter-beta rounded-md overflow-hidden lg:p-8 p-4 transition-all">
+                                        <div
+                                            class="flex items-center justify-center lg:my-14 my-8 lg:h-[210px] h-[140px]">
+                                            <img src="./assets/img/picture-12.png" class="max-h-full max-w-full" alt="">
+                                        </div>
+                                        <div class="">
+                                            <h2 class="text-xl text-dark font-bold mb-0.5">
+                                                T Linkage size 35
+                                            </h2>
+                                            <span class="uppercase text-sm text-darker">
+                                                SHOW DETAILS
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sm:w-1/2 w-full xl:p-3 p-2">
+                                    <a href="#"
+                                        class="block relative bg-light hover:bg-white hover:shadow-lighter-beta rounded-md overflow-hidden lg:p-8 p-4 transition-all">
+                                        <div
+                                            class="flex items-center justify-center lg:my-14 my-8 lg:h-[210px] h-[140px]">
+                                            <img src="./assets/img/picture-13.png" class="max-h-full max-w-full" alt="">
+                                        </div>
+                                        <div class="">
+                                            <h2 class="text-xl text-dark font-bold mb-0.5">
+                                                Big angle bar
+                                            </h2>
+                                            <span class="uppercase text-sm text-darker">
+                                                SHOW DETAILS
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sm:w-1/2 w-full xl:p-3 p-2">
+                                    <a href="#"
+                                        class="block relative bg-light hover:bg-white hover:shadow-lighter-beta rounded-md overflow-hidden lg:p-8 p-4 transition-all">
+                                        <div
+                                            class="flex items-center justify-center lg:my-14 my-8 lg:h-[210px] h-[140px]">
+                                            <img src="./assets/img/picture-12.png" class="max-h-full max-w-full" alt="">
+                                        </div>
+                                        <div class="">
+                                            <h2 class="text-xl text-dark font-bold mb-0.5">
+                                                T Linkage size 35
+                                            </h2>
+                                            <span class="uppercase text-sm text-darker">
+                                                SHOW DETAILS
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sm:w-1/2 w-full xl:p-3 p-2">
+                                    <a href="#"
+                                        class="block relative bg-light hover:bg-white hover:shadow-lighter-beta rounded-md overflow-hidden lg:p-8 p-4 transition-all">
+                                        <div
+                                            class="flex items-center justify-center lg:my-14 my-8 lg:h-[210px] h-[140px]">
+                                            <img src="./assets/img/picture-13.png" class="max-h-full max-w-full" alt="">
+                                        </div>
+                                        <div class="">
+                                            <h2 class="text-xl text-dark font-bold mb-0.5">
+                                                Big angle bar
+                                            </h2>
+                                            <span class="uppercase text-sm text-darker">
+                                                SHOW DETAILS
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sm:w-1/2 w-full xl:p-3 p-2">
+                                    <a href="#"
+                                        class="block relative bg-light hover:bg-white hover:shadow-lighter-beta rounded-md overflow-hidden lg:p-8 p-4 transition-all">
+                                        <div
+                                            class="flex items-center justify-center lg:my-14 my-8 lg:h-[210px] h-[140px]">
+                                            <img src="./assets/img/picture-12.png" class="max-h-full max-w-full" alt="">
+                                        </div>
+                                        <div class="">
+                                            <h2 class="text-xl text-dark font-bold mb-0.5">
+                                                T Linkage size 35
+                                            </h2>
+                                            <span class="uppercase text-sm text-darker">
+                                                SHOW DETAILS
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="sm:w-1/2 w-full xl:p-3 p-2">
+                                    <a href="#"
+                                        class="block relative bg-light hover:bg-white hover:shadow-lighter-beta rounded-md overflow-hidden lg:p-8 p-4 transition-all">
+                                        <div
+                                            class="flex items-center justify-center lg:my-14 my-8 lg:h-[210px] h-[140px]">
+                                            <img src="./assets/img/picture-13.png" class="max-h-full max-w-full" alt="">
+                                        </div>
+                                        <div class="">
+                                            <h2 class="text-xl text-dark font-bold mb-0.5">
+                                                Big angle bar
+                                            </h2>
+                                            <span class="uppercase text-sm text-darker">
+                                                SHOW DETAILS
+                                            </span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-public btn-public-lg btn-light uppercase ms-auto">
+                            LOADING MORE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--END-MAIN-->
+
+    <!--START-FOOTER-->
+    <footer>
+
+        <div class="py-beetwin-section bg-primary-dark">
+            <div class="container">
+                <div class="flex flex-wrap items-start lg:-m-14 sm:-m-4 -m-3">
+                    <div class="md:w-1/3 sm:w-1/2 w-full lg:p-14 sm:p-4 p-3">
+                        <div class="h-[35px] lg:mb-3 mb-1.5">
+                            <img src="./assets/img/logo.png" class="lg:max-w-[200px] max-w-[180px]" alt="">
+                        </div>
+                        <p class="text-public text-public-dark lg:mb-5 mb-3">
+                            Future Waves company, established with the aim of providing specialized products and
+                            services in the field of information technology and communications
+                        </p>
+                        <ul class="flex items-center -m-1">
+                            <li class="p-1">
+                                <a href="#"
+                                    class="w-9 h-9 flex items-center justify-center rounded-full bg-white/5 text-white hover:bg-primary transition-all">
+                                    <i class="icon-instagram text-sm"></i>
+                                </a>
+                            </li>
+                            <li class="p-1">
+                                <a href="#"
+                                    class="w-9 h-9 flex items-center justify-center rounded-full bg-white/5 text-white hover:bg-primary transition-all">
+                                    <i class="icon-telegram text-sm"></i>
+                                </a>
+                            </li>
+                            <li class="p-1">
+                                <a href="#"
+                                    class="w-9 h-9 flex items-center justify-center rounded-full bg-white/5 text-white hover:bg-primary transition-all">
+                                    <i class="icon-twitter text-sm"></i>
+                                </a>
+                            </li>
+                            <li class="p-1">
+                                <a href="#"
+                                    class="w-9 h-9 flex items-center justify-center rounded-full bg-white/5 text-white hover:bg-primary transition-all">
+                                    <i class="icon-linkedin text-sm"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:w-1/3 sm:w-1/2 w-full lg:p-14 sm:p-4 p-3">
+                        <h3 class="h-[35px] lg:mb-3 mb-1.5 text-white text-lg capitalize">
+                            Links
+                        </h3>
+                        <ul class="flex flex-wrap -mx-1.5 -my-0.5">
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    About
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    About
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    About
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Products
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Products
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Products
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="w-1/3 px-1.5 py-0.5">
+                                <a href="#" class="text-public text-public-dark hover:text-white transition-all block">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:w-1/3 sm:w-1/2 w-full lg:p-14 sm:p-4 p-3">
+                        <h3 class="h-[35px] lg:mb-3 mb-1.5 text-white text-lg capitalize">
+                            Contact Us
+                        </h3>
+                        <p class="text-public text-public-dark lg:mb-3.5 mb-2">
+                            P.O.Box 1013, Office # 53, Bait Arzat
+                            <br>
+                            Muscat, Oman
+                        </p>
+                        <p class="text-public text-public-dark lg:mb-3.5 mb-2">
+                            info@futurewaves.tech
+                        </p>
+                        <p class="text-public text-public-dark">
+                            +968 9208 7002
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-6 bg-primary-dark-alpha">
+            <div class="container md:flex justify-between items-center">
+                <p class="text-sm text-darker font-extralight max-md:mb-2">
+                    © Copyrights, 2023 All Right Reserved For Future Waves Group
+                </p>
+                <p class="text-sm text-darker font-extralight">
+                    <a href="#" class="hover:text-white">
+                        Terms & Condition
+                    </a>
+                    /
+                    <a href="#" class="hover:text-white">
+                        Privacy Policy
+                    </a>
+                </p>
+            </div>
+        </div>
+
+    </footer>
+    <!--END-FOOTER-->
+
+
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/Select2/select2.min.js"></script>
+    <script src="assets/js/swiper/swiper.min.js"></script>
+    <script src="assets/js/public.js"></script>
+</body>
+
+</html>

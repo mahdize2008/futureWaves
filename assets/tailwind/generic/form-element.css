@@ -1,0 +1,7 @@
+.input , .textarea{
+    @apply w-full lg:h-16 h-12 rounded-md bg-light px-4 outline-none
+}
+
+.textarea{
+    @apply h-40 p-4
+}

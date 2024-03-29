@@ -1,0 +1,18 @@
+.btn-public{
+    @apply lg:px-8 px-4 lg:py-4 py-2 text-2sm text-white rounded-md block w-fit transition-all
+}
+.btn-public-lg{
+    @apply lg:text-base text-2base font-medium lg:px-12 px-8 lg:py-5 py-3.5
+}
+.btn-primary{
+    @apply bg-primary hover:bg-secondary
+}
+.btn-primary-light{
+    @apply bg-primary/5 text-primary hover:bg-primary hover:text-white
+}
+.btn-secondary{
+    @apply bg-secondary hover:bg-primary
+}
+.btn-light{
+    @apply bg-natural-alpha text-darker/80 hover:bg-primary hover:text-white
+}

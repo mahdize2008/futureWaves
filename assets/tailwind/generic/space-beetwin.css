@@ -1,0 +1,12 @@
+.py-beetwin-section{
+    @apply py-14
+}
+.pt-beetwin-section{
+    @apply pt-14
+}
+.pb-beetwin-section{
+    @apply pb-14
+}
+.mb-beetwin-section{
+    @apply mb-14
+}

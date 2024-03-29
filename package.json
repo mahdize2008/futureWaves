@@ -1,0 +1,15 @@
+{
+  "name": "seetec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "tailwindcss -i ./assets/tailwind/style.css -o ./assets/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

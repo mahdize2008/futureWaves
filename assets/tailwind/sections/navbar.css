@@ -1,0 +1,6 @@
+.header-navbar-item::after{
+    @apply content-[''] bg-primary w-0 h-0.5 absolute -top-0.5 right-1/2 translate-x-1/2 transition-all;
+}
+.header-navbar-item:hover::after{
+    @apply w-1/2;
+}

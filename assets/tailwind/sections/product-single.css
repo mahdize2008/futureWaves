@@ -1,0 +1,12 @@
+.swiper-next-product,.swiper-prev-product{
+    @apply w-[76px] h-[76px] bg-white absolute top-1/2 -end-1.5 -translate-y-1/2 rounded-full z-10 flex items-center justify-center
+}
+.swiper-next-product i,.swiper-prev-product i{
+    @apply text-darker
+}
+.swiper-next-product{
+    @apply -start-1.5 
+} 
+.swiper-next-product.swiper-button-disabled,.swiper-prev-product.swiper-button-disabled{
+    @apply bg-light
+}

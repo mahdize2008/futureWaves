@@ -1,0 +1,28 @@
+.swiper-prev-button,.swiper-next-button{
+    @apply w-[58px] h-[58px] rounded-full bg-white/10 items-center justify-center flex shadow-lighter shrink-0
+}
+.swiper-prev-button i,.swiper-next-button i{
+    @apply text-white text-sm
+}
+.swiper-prev-button.swiper-button-disabled,.swiper-next-button.swiper-button-disabled{
+    @apply bg-white/5
+}
+.swiper-prev-button.swiper-button-disabled i,.swiper-next-button.swiper-button-disabled i{
+    @apply text-white/20
+}
+.swiper-prev-button{
+    @apply me-4
+}
+.swiper-button-light{
+    box-shadow: none;
+    @apply bg-dark-alpha me-0
+}
+.swiper-button-light i{
+    @apply text-darker/50
+}
+.swiper-button-light.swiper-button-disabled{
+    @apply bg-dark/10
+}
+.swiper-button-light.swiper-button-disabled i{
+    @apply text-darker/50
+}

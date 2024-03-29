@@ -1,0 +1,7 @@
+.history-img::after {
+    @apply content-[''] w-[3px] h-full left-1/2 top-0 -translate-x-1/2 bg-white absolute
+}
+
+.history-img::before {
+    @apply content-[''] h-[3px] top-[43%] left-0 w-1/2 -translate-y-1/2 bg-white absolute
+}

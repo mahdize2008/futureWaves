@@ -1,0 +1,13 @@
+.text-public{
+    @apply text-base font-light text-justify
+}
+.text-public-lg{
+    @apply lg:text-md text-2base font-medium
+}
+.text-public-white{
+    @apply text-white
+}
+
+.text-public-dark{
+    @apply text-natural
+}

@@ -1,0 +1,6 @@
+.subtitle-public{
+    @apply text-public text-public-dark flex items-center mb-2 w-fit
+}
+.subtitle-public-white{
+    @apply text-public-white
+}

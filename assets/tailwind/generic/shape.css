@@ -1,0 +1,15 @@
+.warning-shape{
+    @apply bg-secondary block w-2 h-0.5 me-3
+}
+.shape-public{
+    @apply w-1.5 h-3/5 bg-primary block me-4
+}
+.shape-public-secondary{
+    @apply bg-secondary
+}
+.warning-shape-gray{
+    @apply bg-darker/70
+}
+.line{
+    @apply w-full h-[1px] bg-darker/20
+}
